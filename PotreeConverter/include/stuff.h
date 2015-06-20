@@ -13,6 +13,7 @@
 #include <sys/stat.h>
 #include <sys/types.h>
 
+#define BOOST_NO_CXX11_SCOPED_ENUMS
 #include "boost/filesystem.hpp"
 
 #include "Vector3.h"
